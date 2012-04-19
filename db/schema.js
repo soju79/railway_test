@@ -21,3 +21,8 @@
 
 */
 
+var Post = describe('Post', function () {
+    property('title', String);
+    property('content', String);
+    property('createdAt', Date);
+});
